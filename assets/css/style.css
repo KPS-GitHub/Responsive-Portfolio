@@ -217,8 +217,50 @@ input[type=submit] {
 }
 
 
-/* Beginning of responsive settings */
+/* Beginning of media queries */
+
+@media screen and (max-width: 980px) {
+  .main-section {
+    width: 70%;
+  }
+}
 
 @media screen and (max-width: 768px) {
+  .main-section {
+    width: 100%;
+}
+  .auth-image {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
 
+@media screen and (max-width: 640px) {
+  nav {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  nav a {
+    padding: 1%;
+  }
+  
+  #logo {
+    width: 100%;
+  }
+  
+  .main-section {
+    float: none;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  footer .container {
+    padding-bottom: 10px;
+  }
 }
