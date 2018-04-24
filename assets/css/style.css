@@ -220,14 +220,24 @@ input[type=submit] {
 /* Beginning of media queries */
 
 @media screen and (max-width: 980px) {
+  nav {
+    padding-right: 20px;
+  }
+  
   .main-section {
     width: 70%;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    padding-right: 20px;
+  }
   .main-section {
-    width: 100%;
+    width: 94%;
+    margin-left: 20px;
 }
   .auth-image {
     width: 300px;
