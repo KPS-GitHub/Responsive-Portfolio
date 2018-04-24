@@ -273,4 +273,15 @@ input[type=submit] {
   footer .container {
     padding-bottom: 10px;
   }
+
+  .work {
+    float: none;
+    margin: 20px auto 25px;
+    overflow: none;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: auto;
+  }
+
 }
