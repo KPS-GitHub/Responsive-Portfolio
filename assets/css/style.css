@@ -284,4 +284,13 @@ input[type=submit] {
     margin-right: auto;
   }
 
+  nav a {
+    display: inline-block;
+    padding-left: 25px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
 }
